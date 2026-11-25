@@ -1,0 +1,20 @@
+{
+  "name": "PropertyShare",
+  "summary": "Open-source software for splitting one rental property into 1,000,000 on-chain shares that pay rent pro rata. Pre-launch: test networks only, no offering open.",
+  "url": "https://github.com/josephinelinette72-boop/wallet",
+  "channels": ["x", "linkedin", "blog", "email"],
+  "regulated": true,
+  "requiredDisclosure": "Test network only. Not an offer to sell securities.",
+  "forbiddenPatterns": [
+    "guarantee",
+    "passive income",
+    "risk[- ]free",
+    "\\d+(\\.\\d+)?\\s*%\\s*(apy|apr|yield|return|roi)",
+    "(apy|apr|yield|roi)\\s*(of|at)?\\s*\\d",
+    "invest (now|today)",
+    "buy (shares|tokens) (now|today)",
+    "sec[- ]approved",
+    "fdic",
+    "can't lose|cannot lose"
+  ]
+}

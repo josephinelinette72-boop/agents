@@ -1,0 +1,9 @@
+{
+  "name": "Your App",
+  "summary": "One sentence: what it is and its current stage.",
+  "url": "https://example.com",
+  "channels": ["x", "linkedin", "blog", "email"],
+  "regulated": false,
+  "requiredDisclosure": "",
+  "forbiddenPatterns": ["guarantee"]
+}

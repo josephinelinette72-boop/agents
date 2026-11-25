@@ -1,0 +1,30 @@
+{
+  "name": "marketing-agent",
+  "private": true,
+  "version": "0.1.0",
+  "description": "One marketing agent, many apps: a brand pack per app, a compliance check on every draft, and a human approval queue.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "plan": "tsx src/plan.ts",
+    "review": "tsx src/review.ts",
+    "publish": "tsx src/publish.ts",
+    "brands": "tsx src/brands.ts",
+    "mcp": "tsx src/mcp.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.7.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "dotenv": "16.6.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
